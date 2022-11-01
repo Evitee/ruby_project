@@ -27,6 +27,7 @@
 !/storage/.keep
 
 /public/assets
+/lib/seeds
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
