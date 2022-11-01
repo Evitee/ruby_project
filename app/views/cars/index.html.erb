@@ -1,2 +1,7 @@
-<h1>Cars#index</h1>
+<div class="container">
+<div>
+<h1>Kop</h1>
 <p>Find me in app/views/cars/index.html.erb</p>
+</div>
+<%= bar_chart Car.group(:score).count, id: "chart", width: "800px", height: "300px" %>
+</div>

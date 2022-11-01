@@ -1,0 +1,12 @@
+body {
+    background-image: url(https://pixabay.com/get/g27c2784fe80b03d11f0bce250f148dd00d5e2b635be09c639aa662cc1e6b0e74f0b2ea7af000e9cbc86b672f16f50c88aa14883d89c7bcc1b416d44fa18ba83e350dbb9ee483bc81a1ff06c8158478d5_1920.jpg)
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin:auto;
+    background-color: rgb(255,255,255,0.6);
+}
+
