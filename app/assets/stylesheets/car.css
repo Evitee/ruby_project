@@ -7,6 +7,58 @@ body {
 .container {
     max-width: 1200px;
     margin:auto;
-    background-color: rgb(255,255,255,0.6);
 }
+.c-container{
+    background-color: rgb(255,255,255,0.2);
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 35px;
+}
+h1{
+    color:white;
+}
+.cards {
+    display:flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    
+}
+.cards p {
+    color: white;
+    font-size: 19px;
+    border-radius: 35px;
+    background-color: rgb(0,0,0,0.7);
+    padding:20px;
+}
+.description {
+    width: 25%;
+    background-color: rgb(255,255,255,0.2);
+    margin-right: 15px;
+    border-radius: 35px;
+    padding:0px 15px;
+    text-align: justify;  
+}
+.zero{
+    border-top: 15px solid rgb(0,128,0,0.5);
+}
+
+.one{
+    border-top: 15px solid rgb(124,252,0,0.5);
+}
+.two{
+    border-top: 15px solid rgb(255,255,0,0.5);
+}
+.three{
+    border-top: 15px solid rgb(216,0,0,0.5);
+}
+
+.description p {
+    border-top: none;
+}
+
+.description h2 {
+    text-align: center;
+    color:white;
+}
+
 

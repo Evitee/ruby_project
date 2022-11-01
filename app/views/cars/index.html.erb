@@ -1,7 +1,29 @@
 <div class="container">
+<div class="c-container">
 <div>
-<h1>Kop</h1>
-<p>Find me in app/views/cars/index.html.erb</p>
+<h1>Pirmreizējās pārbaudes dati</h1>
 </div>
-<%= bar_chart Car.group(:score).count, id: "chart", width: "800px", height: "300px" %>
+<div class="chart">
+<%= bar_chart Car.group(:score).count, id: "chart", width: "800px", height: "300px", colors:["rgb(0,128,0,0.5)","	
+rgb(124,252,0,0.5)","rgb(255,255,0,0.5)","rgb(216,0,0,0.5)"] %>
+</div>
+</div>
+<div class="cards">
+<div class="description zero">
+<h2>0</h2>
+<p>Trūkumi vai bojājumi nav konstatēti</p>
+</div>
+<div class="description one">
+<h2>1</h2>
+<p>Sīks trūkums vai bojājums, kas tieši neietekmē satiksmes drošību</p>
+</div>
+<div class="description two">
+<h2>2</h2>
+<p>Būtisks trūkums vai bojājums, kas ietekmē apkārtējo vidi vai var ietekmēt satiksmes drošību</p>
+</div>
+<div class="description three">
+<h2>3</h2>
+<p>Bīstams trūkums vai bojājums, kas apdraud apkārtējo vidi, cilvēku veselību, dzīvību vai satiksmes drošību</p>
+</div>
+</div>
 </div>
