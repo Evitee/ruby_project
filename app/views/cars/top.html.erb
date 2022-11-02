@@ -1,0 +1,8 @@
+<div class="container">
+<div class="c-container">
+<div class="top">
+<h2>Vidējais vērtējums atkarībā no auto izlaiduma gada</h2>
+<%= line_chart Car.group(:year).average(:score)%>
+</div>
+</div>
+</div>

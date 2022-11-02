@@ -142,3 +142,6 @@ h1{
     border-radius: 50%;
     background-color: rgb(0,0,0,0.7); 
 }
+.top h2 {
+    padding: 30px;
+}
