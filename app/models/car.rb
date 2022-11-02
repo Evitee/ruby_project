@@ -1,4 +1,13 @@
 class Car < ApplicationRecord
-    include Rails.application.routes.url_helpers
+    def cars
+        @cars = Car.all
+    end
 
+    def count
+        @count = @cars.count
+    end
+    def pass
+        @pass = @cars.count{|car| Car.score <=1}
+        puts pass
+    end
 end

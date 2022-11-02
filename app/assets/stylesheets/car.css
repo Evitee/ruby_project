@@ -2,7 +2,22 @@
 
 body {
     font-family: Quicksand, sans-serif;
-    background-image: url(https://pixabay.com/get/g27c2784fe80b03d11f0bce250f148dd00d5e2b635be09c639aa662cc1e6b0e74f0b2ea7af000e9cbc86b672f16f50c88aa14883d89c7bcc1b416d44fa18ba83e350dbb9ee483bc81a1ff06c8158478d5_1920.jpg)
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('vw-beetle-g539ef641e_1920.jpg');
+    background-size: cover;
+}
+
+h2 {
+    color: white;
+}
+h3 {
+    color:white;
+}
+p {
+    color: white;
+    font-size: 19px;
+}
+#about p{
+    text-align: left;
 }
 
 
@@ -19,10 +34,16 @@ nav {
     padding: 0 20px;
     font-size: 40px;
   }
-  .nav-links:hover:hover{
+  .nav-links:hover{
     background-color: rgb(255,255,255,0.2);
     border-radius: 15px;
   }
+
+  .nav-links:active{
+    background-color: rgb(255,255,255,0.2);
+    border-radius: 15px;
+  }
+ 
   .home {
     background-color: white;
     border-radius: 50%;
@@ -61,6 +82,7 @@ h1{
     border-radius: 35px;
     background-color: rgb(0,0,0,0.7);
     padding:20px;
+    letter-spacing:2px;
 }
 .description {
     width: 25%;
@@ -68,7 +90,7 @@ h1{
     margin-right: 15px;
     border-radius: 35px;
     padding:0px 15px;
-    text-align: justify;  
+    text-align: left;  
 }
 .zero{
     border-top: 15px solid rgb(0,128,0,0.5);
@@ -91,6 +113,32 @@ h1{
 .description h2 {
     text-align: center;
     color:white;
+    font-size: 30px;
+    font-weight: 700;
 }
-
-
+.index {
+    border-radius: 35px;
+    background-color: rgb(0,0,0,0.7);   
+}
+.about p {
+    padding:30px;
+    text-align: left;
+}
+.about h2 {
+    padding-top: 25px;
+}
+.data {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.total {
+    background-color: rgb(255,255,255,0.2);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.total h1 {
+    border-radius: 50%;
+    background-color: rgb(0,0,0,0.7); 
+}
