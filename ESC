@@ -1,0 +1,47 @@
+[33mcommit 1d15ddd7850c32eb593cc60e31a81d1a96111fb9[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Evija Tetina <evija.tetina@gmail.com>
+Date:   Tue Nov 1 23:17:35 2022 +0200
+
+    Adds styles
+
+[33mcommit dba12ca4081aaab4f8afeeab16b566b21e46e695[m
+Author: Evija Tetina <evija.tetina@gmail.com>
+Date:   Tue Nov 1 18:16:36 2022 +0200
+
+    Adds chart
+
+[33mcommit 810664a5552c4a637f88a3f053b4d83d3dbe532f[m
+Author: Evija Tetina <evija.tetina@gmail.com>
+Date:   Tue Nov 1 15:20:37 2022 +0200
+
+    Deleted csv file
+
+[33mcommit a9943167b4db9d0f7a00b7ebd98e0d8a75cd13fd[m
+Author: Evija Tetina <evija.tetina@gmail.com>
+Date:   Tue Nov 1 15:16:09 2022 +0200
+
+    Updated gitignore file
+
+[33mcommit 86734dde7047079b43c0375617666496759f28b8[m
+Author: Evija Tetina <evija.tetina@gmail.com>
+Date:   Tue Nov 1 15:10:24 2022 +0200
+
+    Seeds data in database
+
+[33mcommit 0df282c11d2ec0afacd6458bdccd1b9ba74a6961[m
+Author: Evija Tetina <evija.tetina@gmail.com>
+Date:   Tue Nov 1 00:50:42 2022 +0200
+
+    webservice model, not working
+
+[33mcommit 66f89fc00f267c600c0e620c2060d2f3dcea8b2a[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Evija Tetina <evija.tetina@gmail.com>
+Date:   Mon Oct 31 16:00:19 2022 +0200
+
+    Created Car module and Cars controller
+
+[33mcommit 36bcf0894c758bca0ffdf030413cdc51d0c80ee3[m
+Author: Evija Tetina <evija.tetina@gmail.com>
+Date:   Mon Oct 31 12:43:52 2022 +0200
+
+    initial commit
