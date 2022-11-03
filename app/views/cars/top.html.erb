@@ -1,8 +1,38 @@
 <div class="container">
-<div class="c-container">
-<div class="top">
-<h2>Vidējais vērtējums atkarībā no auto izlaiduma gada</h2>
-<%= line_chart Car.group(:year).average(:score)%>
+  <div class="c-container">
+    <div class="top">
+      <h2>Vidējais vērtējums atkarībā no auto izlaiduma gada</h2>
+      <%= line_chart Car.group(:year).average(:score)%>
+   </div>
+     
 </div>
-</div>
-</div>
+<div class="models">
+       <h2>Apskatīto auto modeļu saraksts</h2>
+         <div class="button">
+           <button id="action" onclick="toggle()">Apskatīt sarakstu</button>
+           <div>
+           <ol id="list">
+             <% @models.each do |model|%>
+             <li><%= model.title %></li>
+            <%end%>
+            </ul>
+           </div>
+        </div>
+      </div>
+  </div>
+<script>
+function toggle (){
+  const actionButton = document.getElementById("action")
+    const list = document.getElementById("list");
+
+    if (list.style.display === "none") {
+        list.style.display = "block"; 
+        actionButton.innerHTML = "Aizvērt";   
+    }
+    else {
+        list.style.display = "none";
+        actionButton.innerHTML = "Apskatīt sarakstu"
+        
+    }
+}
+</script>

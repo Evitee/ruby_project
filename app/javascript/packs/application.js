@@ -12,3 +12,5 @@ import "chartkick/chart.js"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+import "./top"

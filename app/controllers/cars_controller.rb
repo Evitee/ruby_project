@@ -7,6 +7,7 @@ class CarsController < ApplicationController
   end
 
   def top
+    @models = Car.select(:title).order(title: :asc).distinct
   end
 
 end
