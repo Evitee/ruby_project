@@ -4,18 +4,10 @@ body {
     font-family: Quicksand, sans-serif;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('vw-beetle-g539ef641e_1920.jpg');
     background-size: cover;
+    color:white;
     
 }
-li{
-    color:white;
-}
 
-h2 {
-    color: white;
-}
-h3 {
-    color:white;
-}
 p {
     color: white;
     font-size: 19px;
@@ -70,7 +62,9 @@ nav {
     text-align: center;
     margin-bottom: 15px;
     border-radius: 35px;
+    padding: 20px;
 }
+
 h1{
     color:white;
 }
@@ -124,6 +118,7 @@ h1{
     border-radius: 35px;
     background-color: rgb(0,0,0,0.7);   
 }
+
 .about p {
     padding:30px;
     text-align: left;
@@ -153,6 +148,7 @@ h1{
 .models {
     font-size: 20px;
     padding-left: 15px;
+    min-height:2000px;
     
     
 }

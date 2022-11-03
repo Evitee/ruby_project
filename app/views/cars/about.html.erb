@@ -1,18 +1,23 @@
 <div class="container">
-<div class="c-container">
-<div class="about">
-<h2>Tietoevry Ruby [treining]</h2>
-<p>Šis projekts ir tapis Tietoevry Ruby [treiniga] ietvaros, kurā no brīvi izvēlētām atvērto datu kopām tika izveidota lietotne ar šo datu vizualizācijām izmantojot "Ruby on Rails".</p>
-</div>
-<div>
-<h2>2021. gadā veikto tehnisko apskašu skaits atkarībā no auto izlaiduma gada</h2></div>
-<%= column_chart Car.group(:year).count %>
-<div class="data">
-<div class="total"><h3>2021. gadā kopā veiktas</h3><h1><%= Car.count %></h1>
-<h3>tehniskās apskates</h3></div>
-<div class="total"><h3>Tehniskās apskates veiktas</h3><h1><%= Car.select(:title).distinct.count %></h1><h3>dažādiem auto modeļiem</h3></div>
-
-</div>
-
-</div>
+  <div class="c-container">
+    <div class="about">
+      <h2>Tietoevry Ruby [treining]</h2>
+      <p>Šis projekts ir tapis Tietoevry Ruby [treiniga] ietvaros, kurā no brīvi izvēlētām atvērto datu kopām tika izveidota lietotne ar šo datu vizualizācijām izmantojot "Ruby on Rails".</p>
+    </div>
+    <div>
+      <h2>2021. gadā veikto tehnisko apskašu skaits atkarībā no auto izlaiduma gada</h2></div>
+      <%= column_chart Car.group(:year).count, colors:["white"], class:"barChart"%>
+      <div class="data">
+        <div class="total">
+          <h3>2021. gadā kopā veiktas</h3>
+          <h1><%= Car.count %></h1>
+          <h3>tehniskās apskates</h3>
+        </div>
+        <div class="total">
+          <h3>Tehniskās apskates veiktas</h3>
+          <h1><%= Car.select(:title).distinct.count %></h1>
+          <h3>dažādiem auto modeļiem</h3>
+        </div>
+      </div>
+    </div>
 </div>

@@ -1,10 +1,14 @@
-function toggle (){
-    let x = document.getElementById("list");
-
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    }
-    else {
-        x.style.display = "none";
-    }
-}
+//$("#action").on("click",function toggle (){
+    //const actionButton = document.getElementById("action")
+      //const list = document.getElementById("list");
+  
+      //if (list.style.display === "none") {
+         // list.style.display = "block"; 
+         // actionButton.innerHTML = "Aizvērt";   
+     // }
+     // else {
+      //    list.style.display = "none";
+      //    actionButton.innerHTML = "Apskatīt sarakstu"
+          
+    //  }
+ // }

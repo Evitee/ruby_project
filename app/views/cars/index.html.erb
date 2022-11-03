@@ -1,29 +1,35 @@
 <div class="container">
-<div class="c-container">
-<div>
-<h1>Pirmreizējās pārbaudes dati</h1>
-</div>
-<div class="chart">
-<%= bar_chart Car.group(:score).count, id: "chart", width: "800px", height: "300px", colors:["rgb(0,128,0,0.5)","	
+  <div class="c-container">
+    <div>
+      <h1>Pirmreizējās pārbaudes dati</h1>
+    </div>
+    <div class="chart">
+      <%= bar_chart Car.group(:score).count, id: "chart", width: "800px", height: "300px", colors:["rgb(0,128,0,0.5)","	
 rgb(124,252,0,0.5)","rgb(255,255,0,0.5)","rgb(216,0,0,0.5)"] %>
-</div>
-</div>
-<div class="cards">
-<div class="description zero">
-<div class="index"><h2>0</h2></div>
-<p>Trūkumi vai bojājumi nav konstatēti</p>
-</div>
-<div class="description one">
-<div class="index"><h2>1</h2></div>
-<p>Sīks trūkums vai bojājums, kas tieši neietekmē satiksmes drošību</p>
-</div>
-<div class="description two">
-<div class="index"><h2>2</h2></div>
-<p>Būtisks trūkums vai bojājums, kas ietekmē apkārtējo vidi vai var ietekmēt satiksmes drošību</p>
-</div>
-<div class="description three">
-<div class="index"><h2>3</h2></div>
-<p>Bīstams trūkums vai bojājums, kas apdraud apkārtējo vidi, cilvēku veselību, dzīvību vai satiksmes drošību</p>
-</div>
-</div>
+    </div>
+  </div>
+  <div class="cards">
+    <div class="description zero">
+      <div class="index"><h2>0</h2></div>
+        <p>Trūkumi vai bojājumi nav konstatēti</p>
+      </div>
+      <div class="description one">
+        <div class="index">
+          <h2>1</h2>
+        </div>
+       <p>Sīks trūkums vai bojājums, kas tieši neietekmē satiksmes drošību</p>
+      </div>
+      <div class="description two">
+        <div class="index">
+          <h2>2</h2>
+        </div>
+        <p>Būtisks trūkums vai bojājums, kas ietekmē apkārtējo vidi vai var ietekmēt satiksmes drošību</p>
+      </div>
+      <div class="description three">
+        <div class="index">
+          <h2>3</h2>
+        </div>
+        <p>Bīstams trūkums vai bojājums, kas apdraud apkārtējo vidi, cilvēku veselību, dzīvību vai satiksmes drošību</p>
+    </div>
+  </div>
 </div>
